@@ -1,0 +1,108 @@
+Kotlin for Java Programmers
+Venkat Subramaniam
+Email: venkats@agiledeveloper.com
+Twitter: @venkat_s
+http://www.agiledeveloper.com download link
+  
+What's Kotlin:
+-Statically typed
+-Compiles to 
+ -Java
+ -JavaScript
+-Fluent, elegant, brings wonderful features enjoyed in other languages
+
+Let's get it running:
+-Compile and run
+ kotlinc sample.kt -include-runtime -d sample.jar
+ java -classpath sample.jar SampleKt
+
+ or
+ 
+ kotlinc sample.kt -d classes
+ kotlin -classpath classes SampleKt
+
+-REPL
+
+-Run as script
+ kotlinc -script sample.kts World
+
+Some nice things:
+-semicolon is optional
+-sensible warnings
+-type inference
+-val vs var
+-string templates
+-multiline strings
+ -trimMargin() or trimMargin("|")
+-expressions over statements
+
+Functions:
+-let's have some fun
+ -return type inference                            
+ -specifying return type
+ -void function
+-default arguments
+ -can use previous parameters
+-named arguments
+-mixing positional and named arguments
+-vararg and spread
+
+For and Range:
+-for x in 1..10 
+ -until
+ -step
+ -downTo
+ -downTo and step
+-over a listOf
+-indices  
+                                                   
+
+when:
+-value
+-else
+-multiple values
+-in
+-type is
+ -auto casting
+
+Null type:
+-return
+-parameter
+-?. and ?:
+-auto casting
+
+Functional Style:
+-creating a lambda expression
+-filter, map, reduce
+
+Extension methods:
+-classes are open
+-not really part of the class
+
+OO:
+Classes
+ -final by default
+-properties
+-backing fields
+-private set
+-static methods
+-companion objects
+-data Classes
+ -properties
+ -componentN()
+-inheritance
+
+Delegation:
+-lazy
+-to delegate
+
+Fluency:
+-infix
+-DSL
+
+
+Summary:
+
+Download:
+
+http://www.agiledeveloper.com download link
